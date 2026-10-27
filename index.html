@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portofoliul lui Tudor. Site-uri web moderne, responsive și proiecte de programare."
+    />
+    <meta name="theme-color" content="#0b0d12" />
+    <title>Tudor | Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">TUDOR<span>.</span></a>
+
+        <button
+          class="menu-toggle"
+          aria-label="Deschide meniul"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          ☰
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#about">Despre mine</a>
+          <a href="#projects">Proiecte</a>
+          <a href="#services">Servicii</a>
+          <a href="#contact" class="nav-button">Contact ↗</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            WEB DEVELOPER ÎN FORMARE
+          </p>
+
+          <h1>
+            Construiesc site-uri
+            <span class="gradient-text">moderne și utile.</span>
+          </h1>
+
+          <p class="hero-description">
+            Sunt Tudor și îmi dezvolt competențele în web development prin
+            proiecte practice. Creez pagini web clare, responsive și adaptate
+            nevoilor unei afaceri.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              Vezi proiectele ↓
+            </a>
+
+            <a href="#contact" class="button button-secondary">
+              Contactează-mă ↗
+            </a>
+          </div>
+
+          <div class="hero-technologies">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>GitHub</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-header">
+              <div class="window-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p>developer.js</p>
+            </div>
+
+            <div class="code-body">
+              <p>
+                <span class="line-number">01</span>
+                <span class="purple">const</span> developer = {
+              </p>
+              <p>
+                <span class="line-number">02</span> &nbsp; name:
+                <span class="green">'Tudor'</span>,
+              </p>
+              <p>
+                <span class="line-number">03</span> &nbsp; role:
+                <span class="green">'Web Developer'</span>,
+              </p>
+              <p><span class="line-number">04</span> &nbsp; skills: [</p>
+              <p>
+                <span class="line-number">05</span> &nbsp;&nbsp;
+                <span class="green">'HTML'</span>,
+              </p>
+              <p>
+                <span class="line-number">06</span> &nbsp;&nbsp;
+                <span class="green">'CSS'</span>,
+              </p>
+              <p>
+                <span class="line-number">07</span> &nbsp;&nbsp;
+                <span class="green">'JavaScript'</span>
+              </p>
+              <p><span class="line-number">08</span> &nbsp; ]</p>
+              <p><span class="line-number">09</span>};</p>
+            </div>
+
+            <div class="code-footer">
+              <span><span class="status-dot"></span> Learning by building</span>
+              <span>UTF-8</span>
+            </div>
+          </div>
+
+          <div class="floating-card floating-html">HTML</div>
+          <div class="floating-card floating-css">CSS</div>
+          <div class="floating-card floating-js">JS</div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section container" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">01 / DESPRE MINE</p>
+          <h2>Învăț prin proiecte <span class="muted">practice.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Sunt la început de drum în programare și mă concentrez pe
+              dezvoltarea site-urilor web folosind HTML, CSS și JavaScript.
+            </p>
+
+            <p>
+              Îmi place să transform ideile în pagini web ușor de utilizat.
+              Lucrez la proiecte proprii, testez funcționalitățile și îmi
+              îmbunătățesc constant codul.
+            </p>
+
+            <a href="#contact" class="text-link">
+              Hai să discutăm despre proiectul tău ↗
+            </a>
+          </div>
+
+          <div class="skills-card">
+            <h3>Tehnologii și instrumente</h3>
+
+            <div class="skill">
+              <span class="skill-icon html-icon">5</span>
+              <div class="skill-info">
+                <strong>HTML</strong>
+                <small>Structura paginilor web</small>
+              </div>
+              <span class="skill-level">Baze</span>
+            </div>
+
+            <div class="skill">
+              <span class="skill-icon css-icon">✳</span>
+              <div class="skill-info">
+                <strong>CSS</strong>
+                <small>Design și adaptare pentru mobil</small>
+              </div>
+              <span class="skill-level">Baze</span>
+            </div>
+
+            <div class="skill">
+              <span class="skill-icon js-icon">JS</span>
+              <div class="skill-info">
+                <strong>JavaScript</strong>
+                <small>Interactivitate</small>
+              </div>
+              <span class="skill-level">Baze</span>
+            </div>
+
+            <div class="skill">
+              <span class="skill-icon git-icon">⌘</span>
+              <div class="skill-info">
+                <strong>GitHub</strong>
+                <small>Cod și versiuni de proiect</small>
+              </div>
+              <span class="skill-level">Baze</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">02 / PORTOFOLIU</p>
+            <h2>Proiectele mele<span class="muted">.</span></h2>
+            <p class="section-description">
+              Proiecte practice prin care demonstrez ce pot construi.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image project-auto">
+                <div class="project-preview">
+                  <span class="preview-label">KIKOLOS AUTO</span>
+                  <h3>Grijă pentru<br />mașina ta.</h3>
+                  <span class="preview-button">Descoperă serviciile ↗</span>
+                  <div class="car-decoration">✳</div>
+                </div>
+                <span class="project-number">01</span>
+              </div>
+
+              <div class="project-info">
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <h3>Kikolos Auto</h3>
+
+                <p>
+                  Site demonstrativ pentru un service auto, cu prezentarea
+                  serviciilor și interfață pentru programări.
+                </p>
+
+                <a href="projects/kikolos-auto/index.html" class="text-link">
+                  Vezi prezentarea ↗
+                </a>
+
+                <p class="project-note">
+                  Actualizează descrierea conform funcțiilor existente în
+                  proiectul original.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-landing">
+                <div class="landing-preview">
+                  <span>CONCEPT / 02</span>
+                  <h3>Idei clare.<br /><span>Design util.</span></h3>
+                  <p>LANDING PAGE</p>
+                </div>
+                <span class="project-number">02</span>
+              </div>
+
+              <div class="project-info">
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Responsive</span>
+                </div>
+
+                <h3>Landing page pentru afaceri</h3>
+
+                <p>
+                  Un concept de pagină pentru o afacere mică, cu servicii,
+                  beneficii și date de contact.
+                </p>
+
+                <span class="project-status">De realizat</span>
+
+                <p class="project-note">
+                  Acesta este un concept, nu un proiect finalizat pentru un
+                  client.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section container" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">03 / SERVICII</p>
+          <h2>Cu ce te pot ajuta<span class="muted">.</span></h2>
+          <p class="section-description">
+            Proiecte mici, cu cerințe clare, potrivite competențelor mele
+            actuale.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <div class="service-icon">&lt;/&gt;</div>
+            <h3>Site de prezentare</h3>
+            <p>
+              O pagină web pentru a prezenta o afacere, serviciile și datele de
+              contact.
+            </p>
+            <span class="service-footer">HTML · CSS</span>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <div class="service-icon">↗</div>
+            <h3>Landing page</h3>
+            <p>O pagină concentrată pe un produs, serviciu sau o ofertă.</p>
+            <span class="service-footer">Design responsive</span>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <div class="service-icon">⌁</div>
+            <h3>Modificări simple</h3>
+            <p>
+              Ajustări de aspect, corectarea elementelor vizuale și adaptarea
+              paginilor pentru mobil.
+            </p>
+            <span class="service-footer">HTML · CSS · JS</span>
+          </article>
+        </div>
+
+        <p class="disclaimer">
+          Accept doar lucrări pe care le pot realiza și testa corect.
+          Funcționalitățile complexe necesită evaluare separată.
+        </p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-text">
+            <p class="eyebrow">04 / CONTACT</p>
+            <h2>Ai o idee?<br /><span class="muted">Hai să discutăm.</span></h2>
+            <p>
+              Povestește-mi despre site-ul de care ai nevoie. Îți voi spune
+              sincer dacă mă pot ocupa de el.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <p class="contact-label">IA LEGĂTURA CU MINE</p>
+
+            <!-- Înlocuiește URL-ul cu profilul tău real -->
+            <a
+              class="contact-item"
+              id="github-link"
+              href="https://github.com/KrioKon12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="contact-icon">⌘</span>
+              <span>
+                <strong>GitHub</strong>
+                <small>Codul proiectelor mele</small>
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <!-- Înlocuiește adresa demonstrativă -->
+            <a
+              class="contact-item"
+              id="email-link"
+              href="mailto:sprinceananicolae445@gmail.com"
+            >
+              <span class="contact-icon">@</span>
+              <span>
+                <strong>Email</strong>
+                <small>Scrie-mi un mesaj</small>
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <p class="contact-note">
+              Înlocuiește linkurile demonstrative cu datele tale înainte de
+              publicare.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a href="#home" class="logo">TUDOR<span>.</span></a>
+        <p>Realizat cu HTML, CSS și JavaScript.</p>
+        <p>© <span id="year"></span> Tudor · Proiect personal</p>
+      </div>
+    </footer>
+  </body>
+</html>
